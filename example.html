@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>웹폰트 TEST</title>
+<script src="//cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+<script src="//api.font.cf/statics/js/font.smootie.min.js"></script>
+<style type="text/css">
+	body{font-family:"NotoSansKR-Regular";}
+	.area{font-family:"NotoSansCJKkr-Regular";font-size:20px;}
+</style>
+</head>
+<body>
+<h1>웹폰트 서브세트 실시간 실험</h1>
+시험해볼 문자열을 자유롭게 입력하세요!!
+===========================================<br/><br/>
+<div class="area">사용 예입니다.</div><br/><br/>
+===========================================<br/><br/>
+- 최적화를 어느 정도 수행한 버전입니다. 지원하는 전체 서체의 목록은 Fonts.md를 참고하세요<br/>
+- 예제의 서체는 NotoSansCJKkr-Regular이며, 모든 CJK 글자들을 커버합니다. 다만 16MB의 원본 폰트를 읽어오는데 오버헤드가 좀 걸려 약간의 시간이 걸립니다.<br/>
+- 내부 캐쉬를 purge하려면 <a href="//api.font.cf/api/purge">여기</a> (CDN에 캐쉬된 것은 해당 링크에서 삭제되지 않으며, 일정시간 후 사라집니다.)<br/>
+<script src="//api.font.cf/statics/js/InlineFontSubset.min.js"></script>
+</body>
+</html>
