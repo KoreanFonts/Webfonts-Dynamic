@@ -4,7 +4,7 @@
 ========
 
 웹폰트 동적 서브세트 서버/웹문서 예제입니다.
-https://cdn.rawgit.com/KoreanFonts/Webfonts-Dynamic/0a58d2cab33e542cc0e9d027577208cd828266b5/example.html 에서 테스트해보세요!
+https://cdn.rawgit.com/KoreanFonts/Webfonts-Dynamic/bfb2304f2ddf1b3d1fdb6fe3046562839de58139/example.html 에서 테스트해보세요!
 
 경고
 ========
@@ -22,8 +22,8 @@ https://cdn.rawgit.com/KoreanFonts/Webfonts-Dynamic/0a58d2cab33e542cc0e9d0275772
 사용법
 ========
 * CSS font-family 선언문 뒤에 선언하시면 알아서 서브셋을 잡아 전송합니다.
-* https://cdn.rawgit.com/KoreanFonts/Webfonts-Dynamic/0a58d2cab33e542cc0e9d027577208cd828266b5/example.html 의 소스를 확인해보세요!
-* 문서의 &lt;/body> 직전에 &lt;script type="text/javascript" src="//api.font.cf/statics/js/InlineFontSubset.min.js"></script> 만 입력하시면 됩니다. 이때 jquery가 필요합니다. 자세한 내용은 example.html을 참고하세요
+* https://cdn.rawgit.com/KoreanFonts/Webfonts-Dynamic/bfb2304f2ddf1b3d1fdb6fe3046562839de58139/example.html 의 소스를 확인해보세요!
+* 문서의 &lt;/body> 직전에 &lt;script type="text/javascript" src="//fontapi.swing.cf/statics/js/InlineFontSubset.min.js"></script> 만 입력하시면 됩니다. 이때 jquery가 필요합니다. 자세한 내용은 example.html을 참고하세요
 
 프로젝트 기부
 =======
